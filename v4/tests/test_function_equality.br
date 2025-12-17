@@ -1,0 +1,29 @@
+def addi(xi, yi) {
+    var sumi;
+    sumi = xi + yi;
+    return sumi;
+}
+
+def barb() {
+    return;
+}
+
+def main() {
+    var foof;
+    if (foof == nil) { print("this prints"); } 
+
+    foof = addi;
+    if (nil == nil) { print("this prints"); }
+    if (foof == addi) { print("Yes"); }
+    if (addi == addi) { print("Yes"); }
+    if (addi == barb) { print("Does not print"); }
+}
+
+/*
+*OUT*
+this prints
+this prints
+Yes
+Yes
+*OUT*
+*/ 
